@@ -1,6 +1,5 @@
 import { listVideoDevices, startCamera, stopCamera } from './camera.js';
 import { fitCanvas, setStatus } from './overlay.js';
-import { analyzeBrightness } from './sampler.js';
 
 const video = document.getElementById('video');
 const overlay = document.getElementById('overlay');
